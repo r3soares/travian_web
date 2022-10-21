@@ -1,19 +1,32 @@
 .header{
     text-align: center;
 }
+.index_fundo1{
+    z-index: 1;
+}
+.index_fundo2{
+    z-index: 2;
+}
+.index_fundo3{
+    z-index: 3;
+}
 .bg_imagem{
-    background-image: url("../img/bgBuildings_narrow.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image:   url("../img/villageCenter_vid2.png"), 
+                        url("../img/resourceField3.png"), 
+                        url("../img/bgResources_narrow.jpg");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: auto, auto, cover;
+    background-position: 40% -150%, 40% -150%, center 0px;
 }
 .barra_recursos{
     width: 80px;
 }
 .imagem_centro1{
+    z-index: 2;
     background-image: url("../img/resourceField3.png");
     background-repeat: no-repeat;
     background-size: 600px 450px;
-    background-position: center 280px;
+    background-position: absolute center 280px;
 }
 .imagem_centro2{
     background-image: url("../img/villageCenter_vid2.png");
